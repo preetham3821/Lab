@@ -1,15 +1,15 @@
 const homelist = (req, res) => {
     res.render('locations-list',
       {
-        title: 'Loc8r - find a place to work with wifi',
+        title: 'Everything about f1',
         pageHeader: {
-          title: 'Loc8r',
-          strapLine: 'Find places to work with wifi near you!'
+          title: 'about f1',
+          strapLine: 'to explore more about formula 1'
         },
-        sidebar: "Looking for wifi and a seat? Loc8r helps you find places to work when out and about. Perhaps with coffee, cake or a pint? Let Loc8r help you find the place you're looking for.",
+        sidebar: "this page will be informing u about the more km=noledge about f1",
         locations: [
           {
-            name: 'Starcups',
+            name: 'Driver standings',
             address: '125 High Street, Reading, RG6 1PS',
             rating: 3,
             facilities: ['Hot drinks', 'Food', 'Premium wifi'],
