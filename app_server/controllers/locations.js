@@ -6,7 +6,7 @@ const homelist = (req, res) => {
           title: 'about f1',
           strapLine: 'to explore more about formula 1'
         },
-        sidebar: "this page will be informing u about the more km=noledge about f1",
+        sidebar: "this page will be informing u about the more knowledge about f1",
         locations: [
           {
             name: 'Driver standings',
